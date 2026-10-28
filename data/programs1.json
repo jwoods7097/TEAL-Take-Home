@@ -1,0 +1,142 @@
+[
+    [
+        {"function": "grasp_object", "args": {"name": "Cube3", "lift_height": 0.5}}
+    ],
+    [
+        {"function": "move_to_object", "args": {"name": "Can", "offset_x": 0.0, "offset_y": 0.2, "offset_z": 0.0, "duration": 2.0}}
+    ],
+    [
+        {"function": "grasp_object", "args": {"name": "Cube2", "lift_height": 0.5}}
+    ],
+    [
+        {"function": "move_to_object", "args": {"name": "Banana1", "offset_x": 0.0, "offset_y": 0.1, "offset_z": 0.0, "duration": 2.0}},
+        {"function": "grasp_object", "args": {"name": "Banana1", "lift_height": 0.5}}
+    ],
+    [
+        {"function": "grasp_object", "args": {"name": "Can", "lift_height": 0.5}}
+    ],
+    [
+        {"function": "grasp_object", "args": {"name": "Crackers", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": 0.0, "y": 0.0, "z": 0.6, "duration": 2.0, "relative": true}},
+        {"function": "release_object", "args": {"lift_before_release": true, "lift_height": 0.1}}
+    ],
+    [
+        {"function": "grasp_object", "args": {"name": "Banana1", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": -1.55, "y": 1.235, "z": -0.349, "duration": 2.0, "relative": false}},
+        {"function": "release_object", "args": {"lift_before_release": false, "lift_height": 0.1}}
+    ],
+    [
+        {"function": "grasp_object", "args": {"name": "Orange", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": 0.0, "y": 0.0, "z": 0.15, "duration": 2.0, "relative": true}},
+        {"function": "release_object", "args": {"lift_before_release": true, "lift_height": 0.1}}
+    ],
+    [
+        {"function": "grasp_object", "args": {"name": "Apple", "lift_height": 0.5}}
+    ],
+    [
+        {"function": "grasp_object", "args": {"name": "Orange", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": -1.39, "y": 1.2366, "z": -0.45, "duration": 2.0, "relative": false}},
+        {"function": "release_object", "args": {"lift_before_release": false, "lift_height": 0.1}}
+    ],
+    [
+        {"function": "grasp_object", "args": {"name": "Banana2", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": 0.1, "y": 0.0, "z": 0.0, "duration": 2.0, "relative": true}},
+        {"function": "release_object", "args": {"lift_before_release": true, "lift_height": 0.1}},
+        {"function": "grasp_object", "args": {"name": "Banana1", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": -0.05, "y": 0.0, "z": 0.0, "duration": 2.0, "relative": true}},
+        {"function": "release_object", "args": {"lift_before_release": true, "lift_height": 0.1}}
+    ],
+    [
+        {"function": "grasp_object", "args": {"name": "Apple", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": 0.0, "y": 0.3, "z": 0.0, "duration": 0.8, "relative": true}},
+        {"function": "move_to_position", "args": {"x": 0.0, "y": -0.8, "z": 0.3, "duration": 0.3, "relative": true}},
+        {"function": "release_object", "args": {"lift_before_release": false, "lift_height": 0.1}}
+    ],
+    [
+        {"function": "grasp_object", "args": {"name": "Sphere", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": 0.5, "y": 0.0, "z": 0.0, "duration": 2.0, "relative": true}},
+        {"function": "release_object", "args": {"lift_before_release": true, "lift_height": 0.1}}
+    ],
+    [
+        {"function": "move_to_object", "args": {"name": "Cube3", "offset_x": 0.0, "offset_y": 0.1, "offset_z": 0.0, "duration": 2.0}},
+        {"function": "move_to_object", "args": {"name": "Cube1", "offset_x": 0.0, "offset_y": 0.1, "offset_z": 0.0, "duration": 2.0}}
+    ],
+    [
+        {"function": "move_to_position", "args": {"x": 0.2, "y": -0.2, "z": 0.0, "duration": 2.0, "relative": true}},
+        {"function": "move_to_position", "args": {"x": -0.2, "y": -0.2, "z": 0.0, "duration": 2.0, "relative": true}},
+        {"function": "move_to_position", "args": {"x": -0.2, "y": 0.2, "z": 0.0, "duration": 2.0, "relative": true}},
+        {"function": "move_to_position", "args": {"x": 0.2, "y": 0.2, "z": 0.0, "duration": 2.0, "relative": true}}
+    ],
+    [
+        {"function": "grasp_object", "args": {"name": "Banana1", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": 0.0, "y": 0.0, "z": 0.8, "duration": 2.0, "relative": true}},
+        {"function": "release_object", "args": {"lift_before_release": true, "lift_height": 0.1}},
+        {"function": "grasp_object", "args": {"name": "Banana2", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": 0.0, "y": 0.0, "z": 0.8, "duration": 2.0, "relative": true}},
+        {"function": "release_object", "args": {"lift_before_release": true, "lift_height": 0.1}},
+        {"function": "grasp_object", "args": {"name": "Apple", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": 0.0, "y": 0.0, "z": 0.8, "duration": 2.0, "relative": true}},
+        {"function": "release_object", "args": {"lift_before_release": true, "lift_height": 0.1}},
+        {"function": "grasp_object", "args": {"name": "Orange", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": 0.0, "y": 0.0, "z": 0.8, "duration": 2.0, "relative": true}},
+        {"function": "release_object", "args": {"lift_before_release": true, "lift_height": 0.1}},
+        {"function": "grasp_object", "args": {"name": "Can", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": 0.0, "y": 0.0, "z": 0.8, "duration": 2.0, "relative": true}},
+        {"function": "release_object", "args": {"lift_before_release": true, "lift_height": 0.1}},
+        {"function": "grasp_object", "args": {"name": "Crackers", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": 0.0, "y": 0.0, "z": 0.8, "duration": 2.0, "relative": true}},
+        {"function": "release_object", "args": {"lift_before_release": true, "lift_height": 0.1}},
+        {"function": "grasp_object", "args": {"name": "Cube1", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": 0.0, "y": 0.0, "z": 0.8, "duration": 2.0, "relative": true}},
+        {"function": "release_object", "args": {"lift_before_release": true, "lift_height": 0.1}},
+        {"function": "grasp_object", "args": {"name": "Cube2", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": 0.0, "y": 0.0, "z": 0.8, "duration": 2.0, "relative": true}},
+        {"function": "release_object", "args": {"lift_before_release": true, "lift_height": 0.1}},
+        {"function": "grasp_object", "args": {"name": "Cube3", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": 0.0, "y": 0.0, "z": 0.8, "duration": 2.0, "relative": true}},
+        {"function": "release_object", "args": {"lift_before_release": true, "lift_height": 0.1}},
+        {"function": "grasp_object", "args": {"name": "Sphere", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": 0.0, "y": 0.0, "z": 0.8, "duration": 2.0, "relative": true}},
+        {"function": "release_object", "args": {"lift_before_release": true, "lift_height": 0.1}}
+    ],
+    [
+        {"function": "grasp_object", "args": {"name": "Cube1", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": 0.0, "y": 0.0, "z": 0.8, "duration": 2.0, "relative": true}},
+        {"function": "release_object", "args": {"lift_before_release": true, "lift_height": 0.1}},
+        {"function": "grasp_object", "args": {"name": "Cube2", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": 0.0, "y": 0.0, "z": 0.8, "duration": 2.0, "relative": true}},
+        {"function": "release_object", "args": {"lift_before_release": true, "lift_height": 0.1}},
+        {"function": "grasp_object", "args": {"name": "Cube3", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": 0.0, "y": 0.0, "z": 0.8, "duration": 2.0, "relative": true}},
+        {"function": "release_object", "args": {"lift_before_release": true, "lift_height": 0.1}},
+        {"function": "grasp_object", "args": {"name": "Sphere", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": 0.0, "y": 0.0, "z": 0.8, "duration": 2.0, "relative": true}},
+        {"function": "release_object", "args": {"lift_before_release": true, "lift_height": 0.1}}
+    ],
+    [],
+    [
+        {"function": "grasp_object", "args": {"name": "Cube2", "lift_height": 0.5}},
+        {"function": "move_to_object", "args": {"name": "Cube1", "offset_x": 0.0, "offset_y": 0.25, "offset_z": 0.0, "duration": 2.0}},
+        {"function": "release_object", "args": {"lift_before_release": false, "lift_height": 0.1}},
+        {"function": "grasp_object", "args": {"name": "Cube3", "lift_height": 0.5}},
+        {"function": "move_to_object", "args": {"name": "Cube1", "offset_x": 0.0, "offset_y": 0.35, "offset_z": 0.0, "duration": 2.0}},
+        {"function": "release_object", "args": {"lift_before_release": false, "lift_height": 0.1}}
+    ],
+    [
+        {"function": "grasp_object", "args": {"name": "Apple", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": -0.94, "y": 1.24, "z": -0.41, "duration": 2.0, "relative": false}},
+        {"function": "release_object", "args": {"lift_before_release": false, "lift_height": 0.1}},
+        {"function": "grasp_object", "args": {"name": "Orange", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": -0.84, "y": 1.24, "z": -0.41, "duration": 2.0, "relative": false}},
+        {"function": "release_object", "args": {"lift_before_release": false, "lift_height": 0.1}},
+        {"function": "grasp_object", "args": {"name": "Crackers", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": -0.74, "y": 1.24, "z": -0.41, "duration": 2.0, "relative": false}},
+        {"function": "release_object", "args": {"lift_before_release": false, "lift_height": 0.1}},
+        {"function": "grasp_object", "args": {"name": "Banana1", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": -0.64, "y": 1.24, "z": -0.41, "duration": 2.0, "relative": false}},
+        {"function": "release_object", "args": {"lift_before_release": false, "lift_height": 0.1}},
+        {"function": "grasp_object", "args": {"name": "Banana2", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": -0.54, "y": 1.24, "z": -0.41, "duration": 2.0, "relative": false}},
+        {"function": "release_object", "args": {"lift_before_release": false, "lift_height": 0.1}}
+    ]
+]

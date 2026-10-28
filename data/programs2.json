@@ -1,0 +1,174 @@
+[
+    [
+        {"function": "grasp_object", "args": {"name": "Strawberry1", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": -1.02, "y": 1.6, "z": -0.07, "duration": 2.0, "relative": false}},
+        {"function": "release_object", "args": {"lift_before_release": false, "lift_height": 0.1}}
+    ],
+    [
+        {"function": "grasp_object", "args": {"name": "Cup", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": -1.02, "y": 1.6, "z": -0.07, "duration": 2.0, "relative": false}},
+        {"function": "release_object", "args": {"lift_before_release": false, "lift_height": 0.1}}
+    ],
+    [
+        {"function": "grasp_object", "args": {"name": "Knife", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": -2.0, "y": 1.3, "z": -1.2, "duration": 2.0, "relative": false}},
+        {"function": "release_object", "args": {"lift_before_release": true, "lift_height": 0.1}}
+    ],
+    [
+        {"function": "grasp_object", "args": {"name": "Peach", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": -1.0509999990463257, "y": 1.4973458051681519, "z": -0.36841946840286255, "duration": 2.0, "relative": false}},
+        {"function": "release_object", "args": {"lift_before_release": false, "lift_height": 0.1}}
+    ],
+    [
+        {"function": "grasp_object", "args": {"name": "Fork", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": -1.02, "y": 1.6, "z": -0.07, "duration": 2.0, "relative": false}}
+    ],
+    [
+        {"function": "grasp_object", "args": {"name": "Spoon", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": -1.02, "y": 1.6, "z": -0.07, "duration": 2.0, "relative": false}},
+        {"function": "release_object", "args": {"lift_before_release": true, "lift_height": 0.1}}
+    ],
+    [
+        {"function": "grasp_object", "args": {"name": "Fork", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": -1.3640000820159912, "y": 1.2495131492614746, "z": -0.3199999928474426, "duration": 2.0, "relative": false}},
+        {"function": "release_object", "args": {"lift_before_release": true, "lift_height": 0.1}},
+        {"function": "grasp_object", "args": {"name": "Knife", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": -0.8310003280639648, "y": 1.246815800666809, "z": -0.30500006675720215, "duration": 2.0, "relative": false}},
+        {"function": "release_object", "args": {"lift_before_release": true, "lift_height": 0.1}}
+    ],
+    [
+        {"function": "grasp_object", "args": {"name": "Cup", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": -1.2009999990463258, "y": 1.2473458051681519, "z": -0.36841946840286255, "duration": 2.0, "relative": false}},
+        {"function": "release_object", "args": {"lift_before_release": false, "lift_height": 0.1}}
+    ],
+    [
+        {"function": "grasp_object", "args": {"name": "Strawberry3", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": -1.02, "y": 1.6, "z": -0.07, "duration": 2.0, "relative": false}},
+        {"function": "release_object", "args": {"lift_before_release": false, "lift_height": 0.1}}
+    ],
+    [
+        {"function": "grasp_object", "args": {"name": "Banana", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": -1.0509999990463257, "y": 1.2473458051681519, "z": -0.36841946840286255, "duration": 2.0, "relative": false}},
+        {"function": "release_object", "args": {"lift_before_release": false, "lift_height": 0.1}}
+    ],
+    [
+        {"function": "move_to_object", "args": {"name": "Strawberry1", "offset_x": 0.0, "offset_y": 0.1, "offset_z": 0.0, "duration": 2.0}},
+        {"function": "grasp_object", "args": {"name": "Strawberry1", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": -1.050999999, "y": 1.4973458052, "z": -0.3684194684, "duration": 2.0, "relative": false}},
+        {"function": "release_object", "args": {"lift_before_release": false, "lift_height": 0.1}},
+        {"function": "move_to_object", "args": {"name": "Strawberry2", "offset_x": 0.0, "offset_y": 0.1, "offset_z": 0.0, "duration": 2.0}},
+        {"function": "grasp_object", "args": {"name": "Strawberry2", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": -1.050999999, "y": 1.4973458052, "z": -0.3684194684, "duration": 2.0, "relative": false}},
+        {"function": "release_object", "args": {"lift_before_release": false, "lift_height": 0.1}},
+        {"function": "move_to_object", "args": {"name": "Strawberry3", "offset_x": 0.0, "offset_y": 0.1, "offset_z": 0.0, "duration": 2.0}},
+        {"function": "grasp_object", "args": {"name": "Strawberry3", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": -1.050999999, "y": 1.4973458052, "z": -0.3684194684, "duration": 2.0, "relative": false}},
+        {"function": "release_object", "args": {"lift_before_release": false, "lift_height": 0.1}}
+    ],
+    [
+        {"function": "grasp_object", "args": {"name": "Peach", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": -1.0509999990463257, "y": 1.4973458051681519, "z": -0.36841946840286255, "duration": 2.0, "relative": false}},
+        {"function": "release_object", "args": {"lift_before_release": true, "lift_height": 0.1}},
+        {"function": "grasp_object", "args": {"name": "Knife", "lift_height": 0.5}},
+        {"function": "move_to_object", "args": {"name": "Peach", "offset_x": 0.0, "offset_y": 0.1, "offset_z": 0.0, "duration": 2.0}},
+        {"function": "release_object", "args": {"lift_before_release": true, "lift_height": 0.1}}
+    ],
+    [
+        {"function": "grasp_object", "args": {"name": "Peach", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": -1.02, "y": 1.6, "z": -0.07, "duration": 2.0, "relative": false}},
+        {"function": "release_object", "args": {"lift_before_release": false, "lift_height": 0.1}},
+        {"function": "grasp_object", "args": {"name": "Banana", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": -1.02, "y": 1.6, "z": -0.07, "duration": 2.0, "relative": false}},
+        {"function": "release_object", "args": {"lift_before_release": false, "lift_height": 0.1}}
+    ],
+    [
+        {"function": "grasp_object", "args": {"name": "Bread1", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": -1.0509999990463257, "y": 1.2473458051681519, "z": -0.36841946840286255, "duration": 2.0, "relative": false}},
+        {"function": "release_object", "args": {"lift_before_release": true, "lift_height": 0.1}},
+        {"function": "grasp_object", "args": {"name": "Ham", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": -1.0509999990463257, "y": 1.277345805168152, "z": -0.36841946840286255, "duration": 2.0, "relative": false}},
+        {"function": "release_object", "args": {"lift_before_release": true, "lift_height": 0.1}},
+        {"function": "grasp_object", "args": {"name": "Bread2", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": -1.0509999990463257, "y": 1.307345805168152, "z": -0.36841946840286255, "duration": 2.0, "relative": false}},
+        {"function": "release_object", "args": {"lift_before_release": true, "lift_height": 0.1}}
+    ],
+    [
+        {"function": "grasp_object", "args": {"name": "Napkin", "lift_height": 0.3}},
+        {"function": "move_to_position", "args": {"x": -1.02, "y": 1.6, "z": -0.07, "duration": 2.0, "relative": false}},
+        {"function": "move_to_position", "args": {"x": 0.04, "y": 0.0, "z": 0.0, "duration": 1.0, "relative": true}},
+        {"function": "move_to_position", "args": {"x": -0.08, "y": 0.0, "z": 0.0, "duration": 1.0, "relative": true}},
+        {"function": "move_to_position", "args": {"x": 0.04, "y": 0.0, "z": 0.0, "duration": 1.0, "relative": true}},
+        {"function": "move_to_position", "args": {"x": 0.0, "y": 0.1, "z": -0.1, "duration": 1.5, "relative": true}},
+        {"function": "release_object", "args": {"lift_before_release": true, "lift_height": 0.1}}
+    ],
+    [
+        {"function": "grasp_object", "args": {"name": "Banana", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": -1.02, "y": 1.85, "z": -0.07, "duration": 2.0, "relative": false}},
+        {"function": "release_object", "args": {"lift_before_release": false, "lift_height": 0.1}},
+        {"function": "grasp_object", "args": {"name": "Strawberry1", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": -1.02, "y": 1.85, "z": -0.07, "duration": 2.0, "relative": false}},
+        {"function": "release_object", "args": {"lift_before_release": false, "lift_height": 0.1}},
+        {"function": "grasp_object", "args": {"name": "Strawberry2", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": -1.02, "y": 1.85, "z": -0.07, "duration": 2.0, "relative": false}},
+        {"function": "release_object", "args": {"lift_before_release": false, "lift_height": 0.1}},
+        {"function": "grasp_object", "args": {"name": "Strawberry3", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": -1.02, "y": 1.85, "z": -0.07, "duration": 2.0, "relative": false}},
+        {"function": "release_object", "args": {"lift_before_release": false, "lift_height": 0.1}},
+        {"function": "grasp_object", "args": {"name": "Peach", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": -1.02, "y": 1.85, "z": -0.07, "duration": 2.0, "relative": false}},
+        {"function": "release_object", "args": {"lift_before_release": false, "lift_height": 0.1}},
+        {"function": "grasp_object", "args": {"name": "Ham", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": -1.02, "y": 1.85, "z": -0.07, "duration": 2.0, "relative": false}},
+        {"function": "release_object", "args": {"lift_before_release": false, "lift_height": 0.1}},
+        {"function": "grasp_object", "args": {"name": "Bread1", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": -1.02, "y": 1.85, "z": -0.07, "duration": 2.0, "relative": false}},
+        {"function": "release_object", "args": {"lift_before_release": false, "lift_height": 0.1}},
+        {"function": "grasp_object", "args": {"name": "Bread2", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": -1.02, "y": 1.85, "z": -0.07, "duration": 2.0, "relative": false}},
+        {"function": "release_object", "args": {"lift_before_release": false, "lift_height": 0.1}}
+    ],
+    [
+        {"function": "grasp_object", "args": {"name": "Banana", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": -1.0509999990463257, "y": 1.2473458051681519, "z": -0.36841946840286255, "duration": 2.0, "relative": false}},
+        {"function": "release_object", "args": {"lift_before_release": false, "lift_height": 0.1}},
+        {"function": "grasp_object", "args": {"name": "Peach", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": -1.0509999990463257, "y": 1.2473458051681519, "z": -0.36841946840286255, "duration": 2.0, "relative": false}},
+        {"function": "release_object", "args": {"lift_before_release": false, "lift_height": 0.1}}
+    ],
+    [
+        {"function": "grasp_object", "args": {"name": "Bread1", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": -1.0509999990463257, "y": 1.497345805168152, "z": -0.36841946840286255, "duration": 2.0, "relative": false}},
+        {"function": "release_object", "args": {"lift_before_release": false, "lift_height": 0.1}},
+        {"function": "grasp_object", "args": {"name": "Ham", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": -1.0509999990463257, "y": 1.497345805168152, "z": -0.36841946840286255, "duration": 2.0, "relative": false}},
+        {"function": "release_object", "args": {"lift_before_release": false, "lift_height": 0.1}},
+        {"function": "grasp_object", "args": {"name": "Strawberry1", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": -1.0509999990463257, "y": 1.497345805168152, "z": -0.36841946840286255, "duration": 2.0, "relative": false}},
+        {"function": "release_object", "args": {"lift_before_release": false, "lift_height": 0.1}}
+    ],
+    [
+        {"function": "grasp_object", "args": {"name": "Peach", "lift_height": 0.5}},
+        {"function": "move_to_object", "args": {"name": "Plate", "offset_x": 0.0, "offset_y": 0.25, "offset_z": 0.0, "duration": 2.0}},
+        {"function": "release_object", "args": {"lift_before_release": false, "lift_height": 0.1}},
+        {"function": "grasp_object", "args": {"name": "Banana", "lift_height": 0.5}},
+        {"function": "move_to_object", "args": {"name": "Plate", "offset_x": 0.0, "offset_y": 0.25, "offset_z": 0.0, "duration": 2.0}},
+        {"function": "release_object", "args": {"lift_before_release": false, "lift_height": 0.1}},
+        {"function": "grasp_object", "args": {"name": "Banana", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": -1.02, "y": 1.6, "z": -0.07, "duration": 2.0, "relative": false}},
+        {"function": "release_object", "args": {"lift_before_release": false, "lift_height": 0.1}}
+    ],
+    [
+        {"function": "grasp_object", "args": {"name": "Banana", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": -1.051, "y": 1.497, "z": -0.368, "duration": 2.0, "relative": false}},
+        {"function": "release_object", "args": {"lift_before_release": true, "lift_height": 0.1}},
+        {"function": "grasp_object", "args": {"name": "Strawberry1", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": -1.051, "y": 1.497, "z": -0.368, "duration": 2.0, "relative": false}},
+        {"function": "release_object", "args": {"lift_before_release": true, "lift_height": 0.1}},
+        {"function": "grasp_object", "args": {"name": "Strawberry2", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": -1.051, "y": 1.497, "z": -0.368, "duration": 2.0, "relative": false}},
+        {"function": "release_object", "args": {"lift_before_release": true, "lift_height": 0.1}},
+        {"function": "grasp_object", "args": {"name": "Peach", "lift_height": 0.5}},
+        {"function": "move_to_position", "args": {"x": -1.051, "y": 1.497, "z": -0.368, "duration": 2.0, "relative": false}},
+        {"function": "release_object", "args": {"lift_before_release": true, "lift_height": 0.1}}
+    ]
+]
